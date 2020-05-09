@@ -1,0 +1,9 @@
+{
+  "UserPoolId": "us-east-1_3nZK2Bwfo",
+  "ClientId": "4fte6oiqpr4c8ae4hc89m4lkln",
+  "AuthFlow": "ADMIN_NO_SRP_AUTH",
+  "AuthParameters": {
+    "USERNAME": "vamsi",
+    "PASSWORD": "Password@123"
+  }
+}
