@@ -1,0 +1,15 @@
+AWSTemplateFormatVersion: "2010-09-09"
+Description: "Template to create an SNS topic by reading the email throug param"
+
+Parameters:
+    SNSEmail:
+        Type: String
+        Description: Enter email for SNS notification
+Resources:
+    AlertSNSTopic:
+        Type: AWS::SNS::Topic
+        Properties:
+            Subscription:
+                - Endpoint:
+                      Ref: SNSEmail
+                  Protocol: email
