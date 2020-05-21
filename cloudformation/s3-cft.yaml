@@ -3,7 +3,10 @@ Description: CloudFormation template to create an S3 bucket
 Resources:
   S3Bucket:
     Type: "AWS::S3::Bucket"
+<<<<<<< HEAD
 Outputs:
   BucketName:
     Value: !Ref S3Bucket
     Description: Name of the S3 bucket
+=======
+>>>>>>> 5304a866e00034ae138a93ddb9d3a412badff6e0
